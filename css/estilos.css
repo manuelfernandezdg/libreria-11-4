@@ -1,19 +1,7 @@
 /* Mi fuente, Montserrat, Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,800;1,400;1,500;1,800&family=Roboto:ital,wght@0,100;1,100&display=swap');
 
-/*
-    Reglas de estilo para el uso de ambas familias tipográficas
-    Montserrat
-    font-family: 'Montserrat', sans-serif;
-    font-weight 400 500 800
-
-    Roboto
-    font-family: 'Roboto', sans-serif;
-    font-weight 100
-*/
-
 /* Guía de colores */
-
 :root {
     --negro: #07020D;
     --blanco: #FFFFFF;
@@ -76,6 +64,13 @@ h2 {
     font-size: 1.5em;
     color: var(--negro);
     font-weight: 400;
+}
+
+#exito {
+    min-height: 72vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* Encabezado y barra de navegación */
